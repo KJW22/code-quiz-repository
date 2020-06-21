@@ -34,8 +34,10 @@ function sendMessage() {
 }
 
 setTime ();
-//Each question is its own variable, with each one having an almost identical format.
-var question1 = {q: "What is Rex's last name?", a:"a: Cortez, b: Yepiz, c: Banderas, d: Salazar"};
+//Each question is its own variable, with each one having an almost identical format. 
+//If the answer given matches the answer in the correct order of the array, an alert of correct is given, and the score increases by 1.
+//If the answer is wrong, an alert of "incorrect" is given, and ten seconds are deducted from it.
+var question1 = {q: "What is Rex's last name?", a:"a: Cortez, b: Yepiz, c: Banderas, d: Salazar"}
 var question2 = {q: "Why is Agent Six known as Six?"};
 var question3 = {q: "What are Punk Busters?"}; 
 var question4 = {q: "Why did the Nanite Project Researchers blow up the Nanite Reactor?"};
@@ -44,4 +46,6 @@ var question6 = {q: "Why does Van Kleiss always need to absorb new nanites?"};
 var question7 = {q: "Which Channel did Generator Rex air on?"};
 var question8 = {q: "What is the name of the band that sings the Generator Rex theme song?"};
 var question9 = {q: "Who is Hunter Cain?"};
-var question10 = {q: "What does EVO stand for?"};   
+var question10 = {q: "What does EVO stand for?"};
+
+var score = 0;
