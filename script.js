@@ -37,15 +37,23 @@ setTime ();
 //Each question is its own variable, with each one having an almost identical format. 
 //If the answer given matches the answer in the correct order of the array, an alert of correct is given, and the score increases by 1.
 //If the answer is wrong, an alert of "incorrect" is given, and ten seconds are deducted from it.
-var question1 = {q: "What is Rex's last name?", a:"a: Cortez, b: Yepiz, c: Banderas, d: Salazar"}
-var question2 = {q: "Why is Agent Six known as Six?"};
-var question3 = {q: "What are Punk Busters?"}; 
-var question4 = {q: "Why did the Nanite Project Researchers blow up the Nanite Reactor?"};
-var question5 = {q: "Which U.S. President shares the same last name as Rex's best friend Noah?"};
-var question6 = {q: "Why does Van Kleiss always need to absorb new nanites?"};
-var question7 = {q: "Which Channel did Generator Rex air on?"};
-var question8 = {q: "What is the name of the band that sings the Generator Rex theme song?"};
-var question9 = {q: "Who is Hunter Cain?"};
-var question10 = {q: "What does EVO stand for?"};
+var question1 = {q: "What is Rex's last name? A: Cortez, B: Yepiz, C: Buffoon, D: Salazar", a: "D: Salazar"}
+var question2 = {q: "Why is Agent Six known as Six? A: He's the sixth agent Rex has worked with. B: His real name is Lance Sixerton. C: He's the sixth most dangerous man in the world. D: It just sounds cool.", 
+a: "C: He's the sixth most dangerous man in the world. "};
+var question3 = {q: "What are Punk Busters? A: A nickname for a fictional armored vehicle used in the show. B: The name Rex gives to his giant mechanical leg constructs. C: Rex's favorite candy. D: None of the above.",
+a: "B: The name Rex gives to his giant mechanical leg constructs."}; 
+var question4 = {q: "Why did the Nanite Project Researchers blow up the Nanite Reactor? A: They wanted to stop the Consortium from getting the Meta Nanites. B: It was a complete accident. C: They were bored. D: It's never revealed.",
+a: "A: They wanted to stop the Consortium from getting the Meta Nanites."};
+var question5 = {q: "Which U.S. President shares the same last name as Rex's best friend Noah? A: George Washington, B: James Garfield, C: Calvin Coolidge, D: Richard Nixon",
+a: "D: Richard Nixon"};
+var question6 = {q: "Why does Van Kleiss always need to absorb new nanites? A: They're his favorite snack. B: He won't make the rent otherwise. C: He wants to clean up the world. D: It's the only way for him to keep his body stable.",
+a: "D: It's the only way for him to keep his body stable."};
+var question7 = {q: "Which Channel did Generator Rex air on? A: Nickelodeon, B: Cartoon Network, C: Food Network, D: The Hub", a: "B: Cartoon Network"};
+var question8 = {q: "What is the name of the band that sings the Generator Rex theme song? A: Orange, B: The Jonas Brothers, C: Bowling for Soup, D: Imagine Dragons",
+a: "A: Orange"};
+var question9 = {q: "Who is Dr. Holiday? A: Rex's pet chimp. B: One of the participants in the gunfight at OK Corral. C: A scientist ally of Rex. D: Rex's pediatrician",
+a: "C: A scientist ally of Rex."};
+var question10 = {q: "What does EVO stand for? A: Evil Villain Operators, B: Exponentially Variagated Organisms, C: Extremely Vicious Ostriches, D: Extremely Victorious Olympians",
+a: "Exponentially Variagated Organisms"};
 
 var score = 0;
